@@ -1,0 +1,90 @@
+html{
+  font-size: 14px;
+}
+
+
+body{
+  background-color: black;
+}
+
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container, .ricarica{
+  text-align: center;
+}
+h1{
+  font-family: 'Fontdiner Swanky', cursive;
+  color: white;
+  padding-top: 2rem;
+  font-size: 4rem;
+}
+.form-control{
+  background-color: black;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 2px 2px pink;
+  margin-top: 6rem;
+}
+input{
+  margin-top: 4rem;
+}
+.btn{
+  margin-top: 10rem;
+  background-color: red;
+}
+.btn:hover{
+  background-color: black;
+}
+.risposta{
+  display: none;
+  color: pink;
+  cursor: pointer;
+  padding-top: 5rem;
+}
+.ricarica{
+  display:flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.face{
+  display: flex;
+  align-self: center;
+  margin-top: 4rem;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+}
+.face{
+  height: 4rem;
+  width: 4rem;
+}
+
+@media only screen and (max-width:480px) {
+  h1{
+    font-size: 2rem;
+  }
+  .form-control{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+  }
+  .cappelli{
+    height: 6rem;
+    width: 6rem;
+  }
+  .btn{
+    margin-top: 3rem;
+  }
+  .ricarica{
+    display:flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
