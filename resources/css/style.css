@@ -1,5 +1,6 @@
 html{
   font-size: 14px;
+  line-height: 3rem;
 }
 
 
@@ -23,6 +24,9 @@ h1{
   padding-top: 2rem;
   font-size: 4rem;
 }
+h3{
+  margin-top: 3rem;
+}
 .form-control{
   background-color: black;
   font-size: 2rem;
@@ -44,7 +48,8 @@ input{
   display: none;
   color: pink;
   cursor: pointer;
-  padding-top: 5rem;
+  padding-top: 2rem;
+  margin-top: 2rem;
 }
 .ricarica{
   display:flex;
@@ -59,23 +64,33 @@ input{
 .contact{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .face{
   height: 4rem;
   width: 4rem;
 }
+.sfera{
+  background-image: url(../images/sfera.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
 
 @media only screen and (max-width:480px) {
   h1{
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .form-control{
     font-size: 1.5rem;
     margin-top: 3rem;
   }
   .cappelli{
-    height: 6rem;
-    width: 6rem;
+    height: 8rem;
+    width: 8rem;
   }
   .btn{
     margin-top: 3rem;
